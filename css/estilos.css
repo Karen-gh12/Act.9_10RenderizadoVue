@@ -1,0 +1,69 @@
+#menuPrincipal{
+	background-color: rgba(68, 19, 100, 0.76);
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	z-index: 1;
+}
+.opcionMenuPrincipal{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px 50px;
+	cursor: pointer;
+	position: relative;
+	font-size: 1.5rem;
+}
+   .opcionMenuPrincipal:hover{
+	background-color: rgba(208, 102, 235, 0.4);
+   }
+body{
+    background-color:wheat;
+    font-style: italic;
+    font-size: large;
+    
+}
+section {
+    background:url(../img/fon2.jpg) no-repeat center fixed;
+    padding: 20px 0;
+}
+
+label input[type="text"]{
+    height:28px;
+    width:120px;
+    border: solid 1px #fff;
+    text-align:center;
+    color:#075c07;
+    border-radius:10px;
+    display:block;
+}
+
+li input[type="text"]{
+    height:28px;
+    width:40px;
+    border: solid 1px #fff;
+    text-align:center;
+    color:#075c07;
+    border-radius:10px;
+}
+
+.columna{
+    background-color: #faf395;
+    width:100px;
+    margin:0;
+}
+ul{
+    text-align: left;
+}
+div{
+    display: inline-flex;
+    text-align: right;
+    text-align: left;
+}
+.bounce-enter-active {
+    animation: bounce-in .5s;
+  }
+  .bounce-leave-active {
+    animation: bounce-in .5s reverse;
+  }
